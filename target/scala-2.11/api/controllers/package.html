@@ -1,0 +1,563 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>controllers - controllers</title>
+          <meta name="description" content="controllers - controllers" />
+          <meta name="keywords" content="controllers controllers" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../lib/template.js"></script>
+      <script type="text/javascript" src="../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../index.html';
+            var hash = 'controllers.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../lib/package_big.png" />
+        
+        <h1>controllers</h1> <span class="permalink">
+      <a href="../index.html#controllers.package" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">controllers</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="controllers.InputType" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="InputTypeextendsAnyRef"></a>
+      <a id="InputType:InputType"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="InputType.html"><span class="name">InputType</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@InputTypeextendsAnyRef" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.RDFInput" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RDFInputextendsProductwithSerializable"></a>
+      <a id="RDFInput:RDFInput"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="RDFInput.html"><span class="name">RDFInput</span></a><span class="params">(<span name="input_type_RDF">input_type_RDF: <a href="InputType.html" class="extype" name="controllers.InputType">InputType</a></span>, <span name="rdf_uri">rdf_uri: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="rdf_file">rdf_file: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="java.io.File">File</span>]</span>, <span name="rdf_textarea">rdf_textarea: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="rdf_endpoint">rdf_endpoint: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@RDFInputextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.RDFOptions" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RDFOptionsextendsProductwithSerializable"></a>
+      <a id="RDFOptions:RDFOptions"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="RDFOptions.html"><span class="name">RDFOptions</span></a><span class="params">(<span name="syntax">syntax: <a href="../es/weso/utils/RDFSyntax.html" class="extype" name="es.weso.utils.RDFSyntax">RDFSyntax</a></span>, <span name="showRDF">showRDF: <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@RDFOptionsextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ReverseApplication" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ReverseApplicationextendsAnyRef"></a>
+      <a id="ReverseApplication:ReverseApplication"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ReverseApplication.html"><span class="name">ReverseApplication</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ReverseApplicationextendsAnyRef" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ReverseAssets" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ReverseAssetsextendsAnyRef"></a>
+      <a id="ReverseAssets:ReverseAssets"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ReverseAssets.html"><span class="name">ReverseAssets</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ReverseAssetsextendsAnyRef" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ReverseValidator" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ReverseValidatorextendsAnyRef"></a>
+      <a id="ReverseValidator:ReverseValidator"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ReverseValidator.html"><span class="name">ReverseValidator</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ReverseValidatorextendsAnyRef" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ReverseWebJarAssets" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ReverseWebJarAssetsextendsAnyRef"></a>
+      <a id="ReverseWebJarAssets:ReverseWebJarAssets"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ReverseWebJarAssets.html"><span class="name">ReverseWebJarAssets</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ReverseWebJarAssetsextendsAnyRef" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.SchemaInput" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SchemaInputextendsProductwithSerializable"></a>
+      <a id="SchemaInput:SchemaInput"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="SchemaInput.html"><span class="name">SchemaInput</span></a><span class="params">(<span name="input_type_Schema">input_type_Schema: <a href="InputType.html" class="extype" name="controllers.InputType">InputType</a></span>, <span name="schema_uri">schema_uri: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="schema_file">schema_file: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="java.io.File">File</span>]</span>, <span name="schema_textarea">schema_textarea: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@SchemaInputextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.SchemaOptions" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SchemaOptionsextendsProductwithSerializable"></a>
+      <a id="SchemaOptions:SchemaOptions"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="SchemaOptions.html"><span class="name">SchemaOptions</span></a><span class="params">(<span name="cut">cut: <span class="extype" name="scala.Int">Int</span></span>, <span name="withIncoming">withIncoming: <span class="extype" name="scala.Boolean">Boolean</span></span>, <span name="withAny">withAny: <span class="extype" name="scala.Boolean">Boolean</span></span>, <span name="opt_iri">opt_iri: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="es.weso.rdfgraph.nodes.IRI">IRI</span>]</span>, <span name="showSchema">showSchema: <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@SchemaOptionsextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ValidationForm" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ValidationFormextendsProductwithSerializable"></a>
+      <a id="ValidationForm:ValidationForm"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ValidationForm.html"><span class="name">ValidationForm</span></a><span class="params">(<span name="rdfInput">rdfInput: <a href="RDFInput.html" class="extype" name="controllers.RDFInput">RDFInput</a></span>, <span name="rdfOptions">rdfOptions: <a href="RDFOptions.html" class="extype" name="controllers.RDFOptions">RDFOptions</a></span>, <span name="withSchema">withSchema: <span class="extype" name="scala.Boolean">Boolean</span></span>, <span name="schemaInput">schemaInput: <a href="SchemaInput.html" class="extype" name="controllers.SchemaInput">SchemaInput</a></span>, <span name="schemaOptions">schemaOptions: <a href="SchemaOptions.html" class="extype" name="controllers.SchemaOptions">SchemaOptions</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ValidationFormextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ValidationResult" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ValidationResultextendsProductwithSerializable"></a>
+      <a id="ValidationResult:ValidationResult"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ValidationResult.html"><span class="name">ValidationResult</span></a><span class="params">(<span name="status">status: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Boolean">Boolean</span>]</span>, <span name="msg">msg: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="rs">rs: <span class="extype" name="scala.Stream">Stream</span>[<span class="extype" name="es.weso.shex.Typing">Typing</span>]</span>, <span name="nodes">nodes: <span class="extype" name="scala.List">List</span>[<span class="extype" name="es.weso.rdfgraph.nodes.RDFNode">RDFNode</span>]</span>, <span name="str_rdf">str_rdf: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="opts_rdf">opts_rdf: <a href="RDFOptions.html" class="extype" name="controllers.RDFOptions">RDFOptions</a></span>, <span name="withSchema">withSchema: <span class="extype" name="scala.Boolean">Boolean</span></span>, <span name="str_schema">str_schema: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="opt_schema">opt_schema: <a href="SchemaOptions.html" class="extype" name="controllers.SchemaOptions">SchemaOptions</a></span>, <span name="pm">pm: <span class="extype" name="es.weso.parser.PrefixMap">PrefixMap</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ValidationResultextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.routes" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="routesextendsObject"></a>
+      <a id="routes:routes"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="routes.html"><span class="name">routes</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@routesextendsObject" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="controllers.Application" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Application"></a>
+      <a id="Application:Application"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Application$.html"><span class="name">Application</span></a><span class="result"> extends <span class="extype" name="play.api.mvc.Controller">Controller</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@Application" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ByDereference" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ByDereference"></a>
+      <a id="ByDereference:ByDereference"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ByDereference$.html"><span class="name">ByDereference</span></a><span class="result"> extends <a href="InputType.html" class="extype" name="controllers.InputType">InputType</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ByDereference" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ByEndpoint" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ByEndpoint"></a>
+      <a id="ByEndpoint:ByEndpoint"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ByEndpoint$.html"><span class="name">ByEndpoint</span></a><span class="result"> extends <a href="InputType.html" class="extype" name="controllers.InputType">InputType</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ByEndpoint" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ByFile" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ByFile"></a>
+      <a id="ByFile:ByFile"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ByFile$.html"><span class="name">ByFile</span></a><span class="result"> extends <a href="InputType.html" class="extype" name="controllers.InputType">InputType</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ByFile" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ByInput" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ByInput"></a>
+      <a id="ByInput:ByInput"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ByInput$.html"><span class="name">ByInput</span></a><span class="result"> extends <a href="InputType.html" class="extype" name="controllers.InputType">InputType</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ByInput" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ByUri" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ByUri"></a>
+      <a id="ByUri:ByUri"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ByUri$.html"><span class="name">ByUri</span></a><span class="result"> extends <a href="InputType.html" class="extype" name="controllers.InputType">InputType</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ByUri" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.RDFInput" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RDFInput"></a>
+      <a id="RDFInput:RDFInput"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="RDFInput$.html"><span class="name">RDFInput</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@RDFInput" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.RDFOptions" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RDFOptions"></a>
+      <a id="RDFOptions:RDFOptions"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="RDFOptions$.html"><span class="name">RDFOptions</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@RDFOptions" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.SchemaInput" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SchemaInput"></a>
+      <a id="SchemaInput:SchemaInput"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="SchemaInput$.html"><span class="name">SchemaInput</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@SchemaInput" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.SchemaOptions" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SchemaOptions"></a>
+      <a id="SchemaOptions:SchemaOptions"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="SchemaOptions$.html"><span class="name">SchemaOptions</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@SchemaOptions" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ValidationForm" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ValidationForm"></a>
+      <a id="ValidationForm:ValidationForm"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ValidationForm$.html"><span class="name">ValidationForm</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ValidationForm" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ValidationResult" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ValidationResult"></a>
+      <a id="ValidationResult:ValidationResult"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ValidationResult$.html"><span class="name">ValidationResult</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ValidationResult" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.Validator" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Validator"></a>
+      <a id="Validator:Validator"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Validator$.html"><span class="name">Validator</span></a><span class="result"> extends <span class="extype" name="play.api.mvc.Controller">Controller</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@Validator" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.javascript" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="javascript"></a>
+      <a id="javascript:javascript"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="javascript/package.html"><span class="name">javascript</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@javascript" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.ref" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ref"></a>
+      <a id="ref:ref"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="ref/package.html"><span class="name">ref</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.package@ref" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

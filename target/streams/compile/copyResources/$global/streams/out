@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/Alasdair/Workspace/HCLSValidator/rdfshape-ag/rdfshape/conf/application.conf,/Users/Alasdair/Workspace/HCLSValidator/rdfshape-ag/rdfshape/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/Alasdair/Workspace/HCLSValidator/rdfshape-ag/rdfshape/conf/messages,/Users/Alasdair/Workspace/HCLSValidator/rdfshape-ag/rdfshape/target/scala-2.11/classes/messages)[0m
+[0m[[0mdebug[0m] [0m	(/Users/Alasdair/Workspace/HCLSValidator/rdfshape-ag/rdfshape/conf/messages.es.old,/Users/Alasdair/Workspace/HCLSValidator/rdfshape-ag/rdfshape/target/scala-2.11/classes/messages.es.old)[0m
+[0m[[0mdebug[0m] [0m	(/Users/Alasdair/Workspace/HCLSValidator/rdfshape-ag/rdfshape/conf/openshift.conf,/Users/Alasdair/Workspace/HCLSValidator/rdfshape-ag/rdfshape/target/scala-2.11/classes/openshift.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/Alasdair/Workspace/HCLSValidator/rdfshape-ag/rdfshape/conf/routes,/Users/Alasdair/Workspace/HCLSValidator/rdfshape-ag/rdfshape/target/scala-2.11/classes/routes)[0m
