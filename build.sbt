@@ -1,5 +1,5 @@
 
-name := """rdfshape"""
+name := """play"""
 
 version := "1.0"
 
